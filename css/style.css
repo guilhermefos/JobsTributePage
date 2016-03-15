@@ -1,12 +1,51 @@
-header {
-	background-color: white;
-	height: 300px;
+body {
+	padding-top: 40px;
 }
 
+header {
+	margin-top: 10px;
+	background-color: white;
+	height: 200px;
+}
+header img {
+	margin-left: 100px;
+}
+header h3 {
+	font-family: "Helvetica Neue";
+	font-weight: lighter;
+	font-size: 42px;
+}
+header h1 {
+	font-family: "Helvetica Neue"
+	font-weight normal;
+	font-size: 62px;
+}
+
+/* SECTION 1
+-----------------------------------------------*/
 .section1 {
 	background-color: #C9C9CE;
-	height: 612px;
+	height: 408px;
 }
+.section1 img {
+	position: absolute;
+	left: 775px;
+	top: 168px;
+}
+.section1 q {
+	font-size: 18px;
+	position: absolute;
+	left: 50px;
+	top: 400px;
+}
+.section1 h1 {
+	position: absolute;
+	left: 200px;
+	top: 450px;
+}
+
+/* SECTION 2
+------------------------------------------------*/
 
 .section2 {
 	background-color: white;
@@ -15,7 +54,6 @@ header {
 
 /* MARKETING CONTENT
 ------------------------------------------------------- */
-
 /* Center align the text within the three columns below the carousel */
 
 .marketing .col-lg-4 {
@@ -31,11 +69,16 @@ header {
 	margin-left: 10px;
 }
 
+/* FOOTER CONTENT
+------------------------------------------------------*/
 footer {
-	font-family: "Helvetica Neue";
-	font-weight: lighter;
 	text-align: center;
-	color: white;
 	background-color: black;
 	height: 60px;
+}
+footer p {
+	font-family: "Helvetica Neue";
+	font-weight: lighter;
+	color: white;
+	padding-top: 10px;
 }
